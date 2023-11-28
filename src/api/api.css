@@ -8,14 +8,14 @@
 .input_div{
     margin-top: 20px;
     width: 80%;
-    height: 300px;
+  
   
     padding-top: 05%;
 }
 .voice_div{
     justify-content: center;
     width: 80%;
-    height: 300px;
+ 
 
 }
 .input_div input{
@@ -33,4 +33,9 @@
     font-size: 20px;
     border-radius: 30px;
     margin-left: 10px;
+}
+.play{
+    width :1000px;
+    height: 500px;
+    margin-top: 30px;
 }

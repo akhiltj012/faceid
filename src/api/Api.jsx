@@ -98,16 +98,12 @@ axios.request(config)
      <div className='voice_div'> 
     
      <ReactPlayer
-        url='https://youtu.be/7vpW3-J_wr4?si=Sqye1xFdMLI9PCK9'
-        width="640"
+        className='play'
+        url='https://web-assets.invideo.io/landing-pages/prod/homepage/videos/Gen3Promo.mp4'
+        width="540"
         height="360"
-        controls={false}
+        controls={true}
       />
-       {/* <ReactAudioPlayer
-        src=''
-        autoPlay={true}
-        controls
-      /> */}
        <audio controls>
         <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3" type="audio/mp3" />
         Your browser does not support the audio tag.

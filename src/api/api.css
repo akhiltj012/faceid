@@ -1,0 +1,36 @@
+.main{
+    align-items: center;
+    width: 100%;
+    border: red solid;
+    padding-left: 10%;
+    display:block;
+}
+.input_div{
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+  
+    padding-top: 05%;
+}
+.voice_div{
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+
+}
+.input_div input{
+    width: auto;
+    background-color: azure;
+    border: rgb(11, 10, 10) solid;
+    width: 300px;
+    border-radius: 10px;
+    color: blue;
+    height: 30px;
+}
+.input_div button{
+    background-color: rgb(6, 6, 6);
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+}

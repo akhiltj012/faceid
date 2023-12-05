@@ -1,12 +1,18 @@
 
 import './App.css';
-import { Api } from './api/Api';
+import { useState,useEffect } from 'react';
+import Time from './time/Time';
 
 
 function App() {
+  const [count, setcount] = useState(0)
+  let c =0;
+
+
   return (
     <div className="App">
-   <Api/>
+ 
+   <Time/>
     </div>
   );
 }
